@@ -46,3 +46,7 @@ patch cpu_usage.py < cpu_usage.diff  => output: patching file cpu_usage.py
 //this means  changes will apply from cpu_usage.diff to cpu_usage.py
 //thus while diff is the command that generates the difference between two files, patch is the command that applies those differences to the original file.
 sys.exit will cause exit of program
+
+So, to summarize:
+"Diff" is a tool that helps IT guys find the differences between two versions of a program.
+"Patching" is the process of making the necessary changes to update one version of the program based on the differences identified with "diff."
