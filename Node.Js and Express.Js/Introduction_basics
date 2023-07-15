@@ -1,0 +1,61 @@
+Node.js is runtime environment that can run server side JavaScript applications
+while , Express.Js is Server side JavaScript web Frame work that runs on top of NodeJs , in which to write our applications 
+Backend development mainly deals with server , databases , web API's , programming languags , frameworks and runtimes.
+
+The client side: The website and the mobile application that are user facing
+The server side: Processes any request from the client side and sends a response to the client. In today’s world, the cloud hosts the web server, 
+application server, and database.
+
+Types of servers:
+1) Database server - that stores , retrives and delivers data
+2) Web and HTTP server - in web servers the client request to server is fullfilled through HTTP protocol
+                       - this http server is the part of software running  on web server.
+                       -  And software part of webserver  is what controls how user accesses the files which are on server 
+3)Application Server- it hosts and delivers the applications through HTTP.
+                    - It sits between Database server and web server 
+                    -it transforms data into content ( eg like chef takes raw food material and some spices (raw data) and converts into a fabulous cuisine
+                       (creates useful dynamic content in interactive webapp).
+                    -RUns the bussiness logic like Data storage rules and data transfer rules 
+Thus , Servers must communicate with each other and as well as with frontend client in the client - server architecture.  
+
+Web API- Application Programming Interface: 
+- It allows two pieces of software to communicate with each other
+ - In nutshell, when you see a computer program using an API, it's like a friendly translator enabling one program to send messages 
+   and requests to another program and get responses back. This way, they can share data, ask for help, or tell each other what to do, 
+   just like how your friends can communicate through a translator even if they speak different languages!
+- A web service is a type of web API (when someone says, "A web service is a type of web API," it means the special store on the internet is using that 
+                                      secret language to listen to what your computer wants and sends back the things your computer asked for.
+                                      They work together like best friends to make sure you get the things you love from the internet store!)
+- A web service communicates using HTTP. 
+THus in other words, web service is the programming interface that sends and recieves requests , using HTTP, between client and server.
+
+Frameworks: 
+-It is use to built and deploy application
+-It provides structure to a code 
+- Generates code that cannot be altered. ( example, the magical drawing board is like a framework, and the pictures that come to life are like the code it generates.
+                                          The framework helps people create computer programs quickly and easily, just like how the drawing board helps you draw. 
+                                          But once the code is generated, it can't be changed. It stays fixed, like the drawing of the puppy that becomes alive 
+                                          and can't be altered.)
+
+- Express.Js framework runs on top of node.js , where nodej has  HTTP requets made to a web server
+
+Runtime Environment:
+-It is like a mini Operating System that provides the resources necessary for an application to run 
+- It is the infrastructure that supports   the execution of the code 
+- It provides environment where applications gets executed 
+_ eg nodejs is bacckend runtime environment 
+
+Node js runs on google chrome's open source v8 engine , it is the same engine that runs browser on frontend.
+Nodejs executes JavaScript
+
+Repomsibilities of Backend 
+1) Load - load means no. of concurrent users , no. of transactions and amt. of data transferred back and forth between client and server 
+2) Scalibility: It is Applications ability to handle challenges in load without affecting performance.
+3) security aspects
+4) Performance- as it transfers and retrieves data between machines , delivers content to the frontend and supplies bussiness logic to the applications 
+
+Summary: 
+backend devlopment refers to development of server side logic 
+backend technologies include many types of servers and supporting infrastructures 
+Backend is responsible for scalability , security and performance.
+frontend pertains to client
