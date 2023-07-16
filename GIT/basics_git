@@ -1,0 +1,33 @@
+git init 
+When we run git init we initialize a new git repository in the current directory 
+The git directory acts as a database for all the changes tracked in Git and the working tree acts as a sandbox where we can edit the current versions of the files.
+
+git add filename
+with git add command , we hae added file to staging area.
+Staging Area or Index - It is area where file is maintained by git that contains all the information about what files and changes will will it go into after next commit.
+
+git status - this command tells about status about current working tree pending changes, including that we are on master branches
+git commit- it tells we want to save our changes.
+
+3 Sections of git project
+Any git project consists of 3 sections :
+1) Working Tree - it contains current state of project , including any change we have made  (we work on modified files)
+2) Staging Area - it contains changes to be marked and included into nexy commit.       (when modified files are ready , we staged this files by adding them in staging area)
+3) git directory - it contains history of all files and changes  ( finally we commit changes , sitting in our staging area , which takes snapshot of those files 
+                   and stores them in database that lives in git directory.)
+
+When we operate with git, our files can be tracked or untracked . 
+Tracked files are part of snapshots, combined files of these snapshots make up history of our project and these history gets stored in the git directory;
+while untracked files arent a part of snapshots yet. 
+
+Each tracked file can be in 3 stages: modified , staged or commited.
+
+Modified stage: - if a file is in modified stage it means we havent made changes to it and havent committed yet.
+                - The changes could be adding , modifying or deleting content of the file.
+                -  Git noticies anytime we modify our file, but wont store any changes until we add them to staging area.            
+Staged - to stage those changes , our modified files becomes the staged files.
+       - In nutshell, the changes made in the file are ready to be committed to the project. 
+       - All files staged will be part of the next snapshot we take . 
+Committed - Finally , when files get committed , the changes made to it will safely stored in snapshot in git directory(or gets stored in VCS).
+
+in git add - we tell that add current changes to  our files to lit of changes to be committed ; this means our file is currently part of staging area.
